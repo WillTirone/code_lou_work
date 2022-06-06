@@ -3,6 +3,9 @@ I was contracted in Spring 2022 to update the class materials, syllabus, course 
 
 (note: the mentor notes, syllabus, and project requirements below were written in a word doc, so they won't render on GitHub and converting to text would likely ruin the formatting, you may have to download them to view them.)
 
+### Running The Included Code: 
+The Jupyter Notebooks were written in [Google CoLab](https://colab.research.google.com/?utm_source=scs-index) (A project by Google to host notebooks in the cloud and run them remotely), so opening them in CoLab will ensure that all relevant packages are installed. Otherwise, utilizing [Anaconda](https://docs.anaconda.com/anaconda/install/) will most likely cover the majority of needed packages. 
+
 ### [Data 1 repo](https://github.com/WillTirone/code_lou_work/tree/main/data1): 
 
 1. [Mentor notes](https://github.com/WillTirone/code_lou_work/blob/main/data1/mentor_notes_Data1.docx) : are a guide for future mentors with tips on leading classes. 
