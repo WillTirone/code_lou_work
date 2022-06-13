@@ -3,6 +3,9 @@ I was contracted in Spring 2022 to update the class materials, syllabus, course 
 
 (note: the mentor notes, syllabus, and project requirements below were written in a word doc, so they won't render on GitHub and converting to text would likely ruin the formatting, you may have to download them to view them.)
 
+### Running The Included Code: 
+The Jupyter Notebooks were written in [Google CoLab](https://colab.research.google.com/?utm_source=scs-index) (A project by Google to host notebooks in the cloud and run them remotely), so opening them in CoLab will ensure that all relevant packages are installed. Otherwise, utilizing [Anaconda](https://docs.anaconda.com/anaconda/install/) will most likely cover the majority of needed packages. 
+
 ### [Data 1 repo](https://github.com/WillTirone/code_lou_work/tree/main/data1): 
 
 1. [Mentor notes](https://github.com/WillTirone/code_lou_work/blob/main/data1/mentor_notes_Data1.docx) : are a guide for future mentors with tips on leading classes. 
@@ -16,10 +19,12 @@ I was contracted in Spring 2022 to update the class materials, syllabus, course 
 
 ### [Data 2 repo](https://github.com/WillTirone/code_lou_work/tree/main/data2): 
 
+(many of the below changes are the same format as the changes for Data 1, just more advanced Python and SQL material)
+
 1. [Mentor notes](https://github.com/WillTirone/code_lou_work/blob/main/data2/mentor_notes_data2.docx) : are a guide for future mentors with tips on leading classes. 
 2. [Syllabus](https://github.com/WillTirone/code_lou_work/blob/main/data2/Syllabus_Data2.docx) : I reworked the syllabus, removing Pluralsight videos that were outdated or no longer relevant and added some supplementary and optional materials from different sources to augment the existing content. 
 3. [Project Requirements](https://github.com/WillTirone/code_lou_work/blob/main/data2/Requirements_Data2.docx) : At the end of the course, to demonstrate competency, students have to submit a final project on GitHub that meets a variety of requirements. I updated these requirements to align with relevant data analysis learning skills. 
-4. [Knowledge Checks](https://github.com/WillTirone/code_lou_work/tree/main/data2/knowledge_checks) : As an effort to get students writing more code, and so mentors didn't have to make up their own examples each week, I developed short interactive assignments with code examples that are assigned every 3 weeks. Students then upload their code to GitHub allowing them to practice Python and git. These knowledge checks were done using Jupyter Notebooks and cover topics like Python data structures, pandas, basic plotting, and some basic data manipulation. 
-5. [Work-Along Project](https://github.com/WillTirone/code_lou_work/tree/main/data2/project_example) : The largest component of new material I added was a work-along project that shows techniques and code that the students will use in their final projects. The examples and techniques follows the content presented in the syllabus. 
+4. [Knowledge Checks](https://github.com/WillTirone/code_lou_work/tree/main/data2/knowledge_checks) : As an effort to get students writing more code, and so mentors didn't have to make up their own examples each week, I developed short interactive assignments with code examples that are assigned every 3 weeks. Students then upload their code to GitHub allowing them to practice Python and git. These knowledge checks were done using Jupyter Notebooks and cover topics like utilizing APIs to pull data into a DataFrame, more advanced pandas querying / manipulation / cleaning techniques, and methods of combining data using joins/merges and unions/concatenations in pandas and SQL.
+5. [Work-Along Project](https://github.com/WillTirone/code_lou_work/tree/main/data2/project_example) : The largest component of new material I added was a work-along project that shows techniques and code that the students will use in their final projects. The examples and techniques follows the content presented in the syllabus. The general structure of this project is the same as Data 1, but goes over different techniques like working with data from APIs, how to perform calculations using pandas, how to query data, how to clean data, how to make more complicated plots, and how to create interactive plots in Python using Bokeh and Altair. In the last few optional weeks, I go over a basic regression and outline some best practices for writing in Jupyter Notebook with references from an article written by Ploomber.
     * This covers 6 weeks, with 3 optional weeks at the end. 
     * Each required week includes a short assignment (30 minutes to 1 hour) that either prompts the student to fix broken code I wrote, or to write something from scratch based on what they covered in class and in the assigned videos.
